@@ -14,14 +14,14 @@
 }
 
 .App-header {
-  background-color: #282c34;
+  background-color: white;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
   font-size: calc(10px + 2vmin);
-  color: white;
+  color: black;
 }
 
 .App-link {
@@ -35,4 +35,36 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+.navbar{
+  /* display: flex; */
+  color: white;
+  /* text-align: left; */
+  background-color: #282c34;
+  /* padding: 15px; */
+  justify-content: left;
+}
+
+.homeNav{
+  padding: 10px;
+  text-decoration: none;
+  color: white;
+}
+
+.homeNav:hover{
+  
+  background-color: grey;
+  color: white;
+}
+
+.exercisesNav{
+  padding: 10px;
+  margin-left: 10px;
+  text-decoration: none;
+  color: white;
+}
+.exercisesNav:hover{
+  background-color: grey;
+  color: white;
 }

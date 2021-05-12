@@ -1,0 +1,23 @@
+.Header {
+  background-color: #28297a;
+  display: flex;
+  height: 70px;
+}
+
+.Header-logo {
+  width: 210px;
+  color: #fff;
+}
+
+.Header-logo img {
+  width: 50px;
+  height: 50px;
+  margin-top: 10px;
+  margin-left: 15px;
+}
+
+.Boot {
+    margin-top: 20px;
+    margin-left: 10px;
+    font-size: 20px;
+}
